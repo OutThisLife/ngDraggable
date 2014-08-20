@@ -9,3 +9,12 @@ Drag an element without jQuery UI. This does NOT have droppable support (yet), a
  Drag Me!
 </div>
 ```
+
+With a handler:
+
+```html
+<div ng-draggable handle="#handle">
+    I'm not the handle.
+    <span id="#handle">But I am</span>
+</div>
+```
